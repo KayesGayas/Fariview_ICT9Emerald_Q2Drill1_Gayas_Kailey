@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Q2 Drill 1</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url(https://i.pinimg.com/1200x/28/17/6a/28176ac650cc34de8541dc01ff55ec46.jpg);
+      color: #7e0a0a;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    h1 {
+      background: linear-gradient(#913f3f, #faf5f5, #faf5f5,#b85953);
+      color: 7e0a0a;
+      padding: 15px 25px;
+      border-radius: 25px;
+      margin-top: 20px;
+      font-size: 1.8rem;
+      font-weight: bold;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 40px;
+      gap: 20px;
+    }
+
+    .water {
+      background: linear-gradient(#913f3f, #faf5f5, #faf5f5,#b85953);
+      border-radius: 10px;
+      width: 230px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(77, 77, 84, 0.2);
+    }
+    .kit{
+      background: linear-gradient(#251c57, #faf5f5, #faf5f5,#412374);
+      border-radius: 10px;
+      width: 230px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(77, 77, 84, 0.2);
+    }
+    .flashlight{
+      background: linear-gradient(#ac990f, #faf5f5, #faf5f5,#b7ae08);
+      border-radius: 10px;
+      width: 230px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(77, 77, 84, 0.2);
+    }
+    .clothes{
+      background: linear-gradient(#255a06, #faf5f5, #faf5f5,#066607);
+      border-radius: 10px;
+      width: 230px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(77, 77, 84, 0.2);
+    }
+
+
+    .card h2 {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .water h2 { color: #ff4d4d; }
+    .kit h2 { color: #6a5acd; }
+    .flashlight h2 { color: #ffa500; }
+    .clothes h2 { color: #28a745; }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #555;
+      line-height: 1.4;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>🚨 Emergency Go Bag Essentials</h1>
+
+  <div class="container">
+    <div class="card water">
+      <h2>🚰 Emergency Water & Food</h2>
+      <p>Bring food and water in a go bag to stay nourished and hydrated during emergencies when access to supplies may be limited..</p>
+    </div>
+
+    <div class="card kit">
+      <h2>🩹 First Aid Kit</h2>
+      <p>Bring a first aid kit in a go bag to treat injuries or illnesses quickly before medical help arrives..</p>
+    </div>
+
+    <div class="card flashlight">
+      <h2>🔦 Flashlight & Whistle</h2>
+      <p>We need a flashlight and whistle in a go bag to see clearly in the dark and signal for help during emergencies.</p>
+    </div>
+
+    <div class="card clothes">
+      <h2>👕 Extra Clothes</h2>
+      <p>Pack extra clothes in a go bag to stay warm, dry, and comfortable during an evacuation or emergency.</p>
+    </div>
+  </div>
+</body>
+</html>
